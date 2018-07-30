@@ -1,0 +1,64 @@
+<html>	
+
+	<head>
+		<title> CRUD com Jquery </title>
+		<meta charset="utf-8">
+
+		<script src="js/jquery.min.js"></script>
+	</head>
+
+	<body>
+		
+		
+		<label> Nome </label>
+		<input type="text" id="nome" />
+		<label> Idade </label>
+		<input type="text" id="idade" />
+		<button id="btn_adicionar"> Adicionar </button>
+		<br/><br/>
+
+		<label> Nome </label>
+		<input type="text" id="nome_edit" />
+		<label> Idade </label>
+		<input type="text" id="idade_edit" />
+		<button id="btn_editar"> Editar </button>
+		<br/><br/>
+
+		<table>
+				
+			<thead>
+				<tr>
+					<th> Nome </th>
+					<th> Idade </th>
+					<th> Ações </th>
+				</tr>
+			</thead>
+
+			<tbody id="corpo_tabela">
+				<tr>
+
+					<td> Moises </td>
+					<td> 75 </td>
+					<td> 
+						<span class="editar"> Editar </span> 
+						<span class="deletar"> Deletar </span> 
+					</td>
+				</tr>
+				<tr>
+
+					<td> Adão </td>
+					<td> 50 </td>
+					<td> 
+						<span class="editar"> Editar </span> 
+						<span class="deletar"> Deletar </span> 
+					</td>
+				</tr>
+			</tbody>
+
+		</table>
+
+	</body>
+
+	<script src="js/crud.js"></script>
+
+</html>
